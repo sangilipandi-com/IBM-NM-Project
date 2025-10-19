@@ -4,7 +4,7 @@
 
 JavaScript (JS) is a lightweight, interpreted programming language widely used for developing interactive and dynamic web applications. It runs directly inside web browsers without requiring any additional software installation. The following section explains how to create, execute, and understand a simple JavaScript program using Visual Studio Code (VS Code).
 
----
+
 
 ### **2. Objective**
 
@@ -14,7 +14,7 @@ The objective of this report is to:
 * Explain the purpose of each line of code.
 * Provide clarity on how JavaScript interacts with HTML in a basic setup.
 
----
+
 
 ### **3. Tools and Software Requirements**
 
@@ -24,7 +24,7 @@ The objective of this report is to:
 | 2        | **Web Browser (Chrome / Edge / Firefox)** | To execute and view JavaScript output.                                  |
 | 3        | **Node.js (Optional)**                    | Allows running JavaScript directly from the terminal without a browser. |
 
----
+
 
 ### **4. Steps to Execute JavaScript Code in VS Code**
 
@@ -82,7 +82,7 @@ document.getElementById("message").textContent = "Hello, Vibin! This is your fir
   * A message displayed on the webpage.
   * A confirmation message in the **Console tab** of the browser (press **F12 → Console**).
 
----
+
 
 ### **5. Code Explanation**
 
@@ -91,7 +91,7 @@ document.getElementById("message").textContent = "Hello, Vibin! This is your fir
 | 1            | `console.log("JavaScript program is running successfully!");`                                              | Prints a message to the browser console to confirm the JS script is active. |
 | 2            | `document.getElementById("message").textContent = "Hello, Vibin! This is your first JavaScript project.";` | Finds the `<p>` element with ID “message” and changes its text content.     |
 
----
+
 
 ### **6. Output Screenshot (Example)**
 
@@ -103,7 +103,7 @@ document.getElementById("message").textContent = "Hello, Vibin! This is your fir
 
 > “JavaScript program is running successfully!”
 
----
+
 
 ### **7. Advantages of Using VS Code**
 
@@ -112,10 +112,10 @@ document.getElementById("message").textContent = "Hello, Vibin! This is your fir
 3. Extension marketplace for debugging and live server preview.
 4. Auto-save and error detection for smooth coding experience.
 
----
+
 
 ### **8. Conclusion**
 
 This experiment demonstrates the basic execution of a JavaScript program using Visual Studio Code and a web browser. It provides an understanding of how HTML and JavaScript files work together to produce dynamic web content. This foundation can be extended to develop complex applications such as calculators, games, and web-based dashboards.
 
----
+
